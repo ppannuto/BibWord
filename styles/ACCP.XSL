@@ -249,14 +249,9 @@
       </source>
     </citation>
     <bibliography>
-      <columns>2</columns>
+      <columns>1</columns>
       <source type="Placeholder">
         <column id="1">
-          <halign>left</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Tag%}</format>
@@ -264,11 +259,6 @@
       </source>
       <source type="Book">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0|Editor:1%}{. %Title:k|ShortTitle:k%}{. %Edition% ed}{. %City%}{: %Publisher%}{, %Year%}.</format>
@@ -277,11 +267,6 @@
       </source>
       <source type="BookSection">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. In: %Editor:1%}{. %BookTitle:k%}{. %Edition:o% ed}{. %City%}{: %Publisher%}{, %Year%}{:%Pages%}.</format>
@@ -290,11 +275,6 @@
       </source>
       <source type="ArticleInAPeriodical">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. %PeriodicalTitle:k%}{. {%Month:s% }%Year%}{,%Issue%}{:%Pages%}.</format>
@@ -303,11 +283,6 @@
       </source>
       <source type="JournalArticle">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0|Editor:1%}{. %Title:k|ShortTitle:k%}{. %JournalName%}{ %Year%}{;%Volume%}{:%Pages%}.</format>
@@ -316,11 +291,6 @@
       </source>
       <source type="ConferenceProceedings">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. Paper presented at %ConferenceName%}{{;%Month:s%} %Year%}{; {%Country%, }%City%}.</format>
@@ -329,11 +299,6 @@
       </source>
       <source type="Report">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. %City%}{: %Institution%;}{ {%Month:s% }%Year%}{. %StandardNumber|ShortTitle:k|ThesisType%}.</format>
@@ -342,11 +307,6 @@
       </source>
       <source type="InternetSite">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%.}{ %Title:k%.}{ %InternetSiteTitle:k|ShortTitle:k%}{ [%Medium%]}{. {%Month:s% {%Day%, }}%Year%;}{ %Edition%}{:%Comments%}{. Available at: %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
@@ -355,11 +315,6 @@
       </source>
       <source type="DocumentFromInternetSite">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%.}{ %Title:k%.}{ In %Editor:1%.}{ %InternetSiteTitle:k|ShortTitle:k%}{. {%Month:s% {%Day%, }}%Year%}{. %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
@@ -368,11 +323,6 @@
       </source>
       <source type="SoundRecording">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Title:k|ShortTitle:k%}{ [%Medium%]}{. %City%}{: %Publisher%}{, %Year%}.</format>
@@ -381,11 +331,6 @@
       </source>
       <source type="Film">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Director:0%.}{ %Title:k|ShortTitle:k%}{ [%Medium%]}{. %Distributor%}{{. %Month:s% {%Day%}}, %Year%}.</format>
@@ -394,11 +339,6 @@
       </source>
       <source type="Patent">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Inventor:2|Author:2%}{; %Publisher%, assignee}{. %Title:k|ShortTitle:k%}{. %PatentNumber%}{{. %Month:s% {%Day%}}, %Year%}.</format>
@@ -407,11 +347,6 @@
       </source>
       <source type="Case">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Title:k|ShortTitle:k%}{, %Reporter%}{ %CaseNumber%}{ %AbbreviatedCaseNumber%}{ %Pages::%}{ (%Court|Year%{ %Year})}.</format>
@@ -420,11 +355,6 @@
       </source>
       <source type="Misc">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. In %Editor:1%}{ %Translator%, trans}{. %PublicationTitle:k}{. Vol %Volume%}{. %Edition% ed}{. {%Country% }%City%}{: %Publisher%}{; %Year%}{:%Pages%}.</format>
@@ -433,11 +363,6 @@
       </source>
       <source type="Thesis">
         <column id="1">
-          <halign>right</halign>
-          <valign>top</valign>
-          <format>%RefOrder%.</format>
-        </column>
-        <column id="2">
           <halign>left</halign>
           <valign>top</valign>
           <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{ [%ThesisType%]}{. %City%}{: %Department%}{, %Institution%}{; %Year%}.</format>
