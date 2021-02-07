@@ -271,7 +271,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0|Editor:1%}{. %Title:f|ShortTitle:f%}{. %Edition% ed}{. %City%}{: %Publisher%}{, %Year%}.</format>
+          <format>{%Author:0|Editor:1%}{. %Title:k|ShortTitle:k%}{. %Edition% ed}{. %City%}{: %Publisher%}{, %Year%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -284,7 +284,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{. In: %Editor:1%}{. %BookTitle:f%}{. %Edition:o% ed}{. %City%}{: %Publisher%}{, %Year%}{:%Pages%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. In: %Editor:1%}{. %BookTitle:k%}{. %Edition:o% ed}{. %City%}{: %Publisher%}{, %Year%}{:%Pages%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -297,7 +297,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{. %PeriodicalTitle:f%}{. {%Month:s% }%Year%}{,%Issue%}{:%Pages%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. %PeriodicalTitle:k%}{. {%Month:s% }%Year%}{,%Issue%}{:%Pages%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -310,7 +310,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0|Editor:1%}{. %Title:f|ShortTitle:f%}{. %JournalName%}{ %Year%}{;%Volume%}{:%Pages%}.</format>
+          <format>{%Author:0|Editor:1%}{. %Title:k|ShortTitle:k%}{. %JournalName%}{ %Year%}{;%Volume%}{:%Pages%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -323,7 +323,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{. Paper presented at %ConferenceName%}{{;%Month:s%} %Year%}{; {%Country%, }%City%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. Paper presented at %ConferenceName%}{{;%Month:s%} %Year%}{; {%Country%, }%City%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -336,7 +336,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{. %City%}{: %Institution%;}{ {%Month:s% }%Year%}{. %StandardNumber|ShortTitle:f|ThesisType%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. %City%}{: %Institution%;}{ {%Month:s% }%Year%}{. %StandardNumber|ShortTitle:k|ThesisType%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -349,7 +349,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%.}{ %Title:f%.}{ %InternetSiteTitle:f|ShortTitle:f%}{ [%Medium%]}{. {%Month:s% {%Day%, }}%Year%;}{ %Edition%}{:%Comments%}{. Available at: %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
+          <format>{%Author:0%.}{ %Title:k%.}{ %InternetSiteTitle:k|ShortTitle:k%}{ [%Medium%]}{. {%Month:s% {%Day%, }}%Year%;}{ %Edition%}{:%Comments%}{. Available at: %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -362,7 +362,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%.}{ %Title:f%.}{ In %Editor:1%.}{ %InternetSiteTitle:f|ShortTitle:f%}{. {%Month:s% {%Day%, }}%Year%}{. %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
+          <format>{%Author:0%.}{ %Title:k%.}{ In %Editor:1%.}{ %InternetSiteTitle:k|ShortTitle:k%}{. {%Month:s% {%Day%, }}%Year%}{. %URL:l%}{. Accessed {%MonthAccessed:s% {%DayAccessed%, }}%YearAccessed%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -375,7 +375,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Title:f|ShortTitle:f%}{ [%Medium%]}{. %City%}{: %Publisher%}{, %Year%}.</format>
+          <format>{%Title:k|ShortTitle:k%}{ [%Medium%]}{. %City%}{: %Publisher%}{, %Year%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -388,7 +388,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Director:0%.}{ %Title:f|ShortTitle:f%}{ [%Medium%]}{. %Distributor%}{{. %Month:s% {%Day%}}, %Year%}.</format>
+          <format>{%Director:0%.}{ %Title:k|ShortTitle:k%}{ [%Medium%]}{. %Distributor%}{{. %Month:s% {%Day%}}, %Year%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -401,7 +401,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Inventor:2|Author:2%}{; %Publisher%, assignee}{. %Title:f|ShortTitle:f%}{. %PatentNumber%}{{. %Month:s% {%Day%}}, %Year%}.</format>
+          <format>{%Inventor:2|Author:2%}{; %Publisher%, assignee}{. %Title:k|ShortTitle:k%}{. %PatentNumber%}{{. %Month:s% {%Day%}}, %Year%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -414,7 +414,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Title:f|ShortTitle:f%}{, %Reporter%}{ %CaseNumber%}{ %AbbreviatedCaseNumber%}{ %Pages::%}{ (%Court|Year%{ %Year})}.</format>
+          <format>{%Title:k|ShortTitle:k%}{, %Reporter%}{ %CaseNumber%}{ %AbbreviatedCaseNumber%}{ %Pages::%}{ (%Court|Year%{ %Year})}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -427,7 +427,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{. In %Editor:1%}{ %Translator%, trans}{. %PublicationTitle:f}{. Vol %Volume%}{. %Edition% ed}{. {%Country% }%City%}{: %Publisher%}{; %Year%}{:%Pages%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{. In %Editor:1%}{ %Translator%, trans}{. %PublicationTitle:k}{. Vol %Volume%}{. %Edition% ed}{. {%Country% }%City%}{: %Publisher%}{; %Year%}{:%Pages%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -440,7 +440,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:0%}{. %Title:f|ShortTitle:f%}{ [%ThesisType%]}{. %City%}{: %Department%}{, %Institution%}{; %Year%}.</format>
+          <format>{%Author:0%}{. %Title:k|ShortTitle:k%}{ [%ThesisType%]}{. %City%}{: %Department%}{, %Institution%}{; %Year%}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0%}{%Title:a%}{%Year%}</sortkey>
       </source>
@@ -1498,7 +1498,7 @@
                           </xsl:with-param>
                         </xsl:call-template>
                       </xsl:when>
-                      <xsl:when test="contains($options, 'f')">
+                      <xsl:when test="contains($options, 'k')">
                         <xsl:call-template name="upperfirst-lower-case">
                           <xsl:with-param name ="string">
                             <xsl:choose>
@@ -1564,7 +1564,7 @@
                           <xsl:with-param name ="string" select="$source/*[local-name() = $name]"/>
                         </xsl:call-template>
                       </xsl:when>
-                      <xsl:when test="contains($options, 'f')">
+                      <xsl:when test="contains($options, 'k')">
                         <xsl:call-template name="upperfirst-lower-case">
                           <xsl:with-param name ="string" select="$source/*[local-name() = $name]"/>
                         </xsl:call-template>
@@ -1841,7 +1841,7 @@
                         <xsl:with-param name="string" select="$person/*[local-name() = $name]"/>
                       </xsl:call-template>
                     </xsl:when>
-                    <xsl:when test="contains($options, 'f')">
+                    <xsl:when test="contains($options, 'k')">
                       <xsl:call-template name="upperfirst-lower-case">
                         <xsl:with-param name="string" select="$person/*[local-name() = $name]"/>
                       </xsl:call-template>
@@ -2096,7 +2096,7 @@
             <xsl:with-param name="string" select="$corp"/>
           </xsl:call-template>
         </xsl:when>
-        <xsl:when test="contains($options, 'f')">
+        <xsl:when test="contains($options, 'k')">
           <xsl:call-template name="upperfirst-lower-case">
             <xsl:with-param name="string" select="$corp"/>
           </xsl:call-template>
@@ -2476,7 +2476,7 @@
           <xsl:with-param name="string" select="$type"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="contains($options, 'f')">
+      <xsl:when test="contains($options, 'k')">
         <xsl:call-template name="upperfirst-lower-case">
           <xsl:with-param name="string" select="$type"/>
         </xsl:call-template>
@@ -2915,7 +2915,7 @@
   <xsl:template name="format-day">
     <!-- Day. -->
     <xsl:param name="day"/>
-    <!-- Formatting options (o: ordinal, u: upper-case, l:lower-case, f:upperfirst-lower-case n: two digits, i: invert (32 - day). -->
+    <!-- Formatting options (o: ordinal, u: upper-case, l:lower-case, k:upperfirst-lower-case, n: two digits, i: invert (32 - day). -->
     <xsl:param name="options"/>
 
     <!-- Check if the number should be inverted. -->
@@ -2967,6 +2967,11 @@
         </xsl:when>
         <xsl:when test="contains($options, 'l')">
           <xsl:call-template name="lower-case">
+            <xsl:with-param name="string" select="$temp2"/>
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:when test="contains($options, 'k')">
+          <xsl:call-template name="upperfirst-lower-case">
             <xsl:with-param name="string" select="$temp2"/>
           </xsl:call-template>
         </xsl:when>
@@ -3077,6 +3082,12 @@
         <!-- Entire title in lower case. -->
         <xsl:when test="contains($options, 'l')">
           <xsl:call-template name="lower-case">
+            <xsl:with-param name="string" select="$sort"/>
+          </xsl:call-template>
+        </xsl:when>
+        <!-- The first word in titlecase -->
+        <xsl:when test="contains($options, 'k')">
+          <xsl:call-template name="upperfirst-lower-case">
             <xsl:with-param name="string" select="$sort"/>
           </xsl:call-template>
         </xsl:when>
